@@ -65,11 +65,3 @@ function plugin_prefix_scripts( $hook ) {
 
 }
 add_action( 'wp_enqueue_scripts', 'plugin_prefix_scripts' );
-
-/**
- * Load frontend scripts
- */
-function plugin_prefix_load_scripts() {
-
-
-}
