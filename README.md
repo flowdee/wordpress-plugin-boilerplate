@@ -39,10 +39,10 @@ In case you want to use the grunt workflow simply execute the following commands
 npm install
 
 // Run watcher while developing and updating less/js files
-npm watch
+grunt watch
 
 // Finish the work and generating the zip file of the plugin
-npm finish
+grunt finish
 ```
 
 #### Variant 2: Default editing
