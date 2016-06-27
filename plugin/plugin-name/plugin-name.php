@@ -100,8 +100,6 @@ if( ! class_exists( 'Plugin_Name' ) ) {
 
             // Anything else
             require_once PLUGIN_NAME_DIR . 'includes/functions.php';
-            require_once PLUGIN_NAME_DIR . 'includes/shortcodes.php';
-            require_once PLUGIN_NAME_DIR . 'includes/widgets.php';
         }
 
         /**
