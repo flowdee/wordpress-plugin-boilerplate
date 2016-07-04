@@ -22,10 +22,13 @@ Due to the fact that I used placeholder names, prefixes and labels, you update s
 * Search for: `PLUGIN_NAME` and replace with: `JUMPING_DONUT`
 * Search for: `plugin_name` and replace with: `jumping_donut`
 * Search for: `plugin-name` and replace with: `jumping-donut`
+* Search for: `PluginName` and replace with: `JumpingDonut`
 * Search for: `plugin_prefix` and replace with: `jd_` _(This will be used for prefixing functions and I suggest using an unique and shorter one)_
 
 Additionally please take a look into the plugin files and replace those as well:
 * Search for: `plugin-name` and replace with: `jumping-donut`
+
+**Please take care that you don't overwrite the label "Plugin Name" at line 3 of your main plugin file: plugin-name.php**
 
 _In case I missed some placeholders, please gimme a shout._
 
