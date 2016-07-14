@@ -151,7 +151,7 @@ if (!class_exists('Plugin_Name_Settings')) {
             <?php
         }
 
-        function checkbox_field_01_render() {
+        function checkbox_field_01_render() { 
 
             $checked = ( isset ( $this->options['checkbox_01'] ) && $this->options['checkbox_01'] == '1' ) ? 1 : 0;
             ?>
@@ -177,10 +177,12 @@ if (!class_exists('Plugin_Name_Settings')) {
                 <?php screen_icon(); ?>
                 <h2><?php _e('Plugin Name', 'plugin-name'); ?></h2>
 
-                <?php
-                settings_fields( 'plugin_name' );
-                do_settings_sections( 'plugin_name' );
-                ?>
+                <form action="options.php" method="post">
+                    <?php
+                    settings_fields( 'plugin_name' );
+                    do_settings_sections( 'plugin_name' );
+                    ?>
+                </form>
 
                 <p><?php submit_button( 'Save Changes', 'button-primary', 'submit', false ); ?></p>
             </div>
